@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Flowchart - Manav Abhishek</title>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            margin: 0;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+        }
+        h1 {
+            text-align: center;
+            color: #1e40af;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+        }
+        .mermaid {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>MANAV ABHISHEK - Resume Flowchart</h1>
+        <div class="mermaid">
+            flowchart TD
+                Start([MANAV ABHISHEK<br/>CYBER SECURITY]) --> Profile[PROFILE<br/>Motivated Engineering Student<br/>Python, Web Dev, Cyber Security, AI]
+                
+                Profile --> Education[EDUCATION<br/>2024-2027 RIT ROORKEE<br/>Bachelor of Computer Application<br/>Currently Studying]
+                
+                Profile --> Experience[WORK EXPERIENCE]
+                
+                Experience --> Exp1[AI & Python Developer<br/>2024-PRESENT<br/>Self-Driven Projects]
+                Exp1 --> Exp1a[JARVIS AI Assistant<br/>Voice Commands, Automation<br/>GPT, DeepSeek, Whisper ASR]
+                Exp1 --> Exp1b[AI Dashboard UI<br/>Animations, System Info<br/>Digital AI Face]
+                
+                Experience --> Exp2[Web Development & Automation<br/>2024-PRESENT<br/>Independent Work]
+                Exp2 --> Exp2a[Real-Time Friend Tracker<br/>Google Maps, Chat System<br/>AI-Powered Suggestions]
+                Exp2 --> Exp2b[Web Tools & Automation<br/>Python, HTML, CSS, JS<br/>Backend APIs & Databases]
+                
+                Experience --> Exp3[Flutter App Developer<br/>2024-PRESENT<br/>Personal Projects]
+                Exp3 --> Exp3a[SquadMB Group Chat App<br/>Polls, Location Sharing<br/>E2E Encryption, Neon UI]
+                Exp3 --> Exp3b[Firebase Integration<br/>Authentication, Real-time Chat<br/>Push Notifications]
+                
+                Experience --> Exp4[Summer Internship<br/>Frontend Development & DSA]
+                Exp4 --> Exp4a[UI Development<br/>Logical Thinking<br/>Algorithmic Problem-Solving]
+                Exp4 --> Exp4b[Certificate Awarded<br/>Official Completion]
+                
+                Profile --> Skills[SKILLS]
+                Skills --> Tech[Technical Skills<br/>Programming & Scripting<br/>Frameworks & Tools]
+                Skills --> Soft[Soft Skills<br/>Teamwork, Time Management<br/>Effective Communication<br/>Critical Thinking]
+                
+                Profile --> Contact[CONTACT INFORMATION]
+                Contact --> ContactDetails[Phone: +91 8228854903<br/>Email: manavabhishek54@gmail.com<br/>Location: Patna, Bihar<br/>LinkedIn Profile]
+                
+                Profile --> Languages[LANGUAGES<br/>Hindi, English]
+                
+                style Start fill:#1e40af,stroke:#1e3a8a,stroke-width:3px,color:#fff
+                style Profile fill:#3b82f6,stroke:#2563eb,stroke-width:2px,color:#fff
+                style Education fill:#60a5fa,stroke:#3b82f6,stroke-width:2px,color:#fff
+                style Experience fill:#60a5fa,stroke:#3b82f6,stroke-width:2px,color:#fff
+                style Skills fill:#93c5fd,stroke:#60a5fa,stroke-width:2px,color:#000
+                style Contact fill:#93c5fd,stroke:#60a5fa,stroke-width:2px,color:#000
+                style Languages fill:#93c5fd,stroke:#60a5fa,stroke-width:2px,color:#000
+                style Exp1 fill:#dbeafe,stroke:#93c5fd,stroke-width:2px
+                style Exp2 fill:#dbeafe,stroke:#93c5fd,stroke-width:2px
+                style Exp3 fill:#dbeafe,stroke:#93c5fd,stroke-width:2px
+                style Exp4 fill:#dbeafe,stroke:#93c5fd,stroke-width:2px
+        </div>
+    </div>
+    <script>
+        mermaid.initialize({ startOnLoad: true, theme: 'default' });
+    </script>
+</body>
+</html>
+
